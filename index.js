@@ -1,3 +1,4 @@
+
 document.querySelector(".btn1").addEventListener("click", function(){
     document.querySelector(".lift").style.marginTop = "-70px";
 });

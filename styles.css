@@ -6,10 +6,23 @@
     box-sizing: border-box;
 }
 
-.container{
-    z-index: 1;
+.heading{
+    height: 25vh;
     width: 100vw;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.container {
+    z-index: 1;
+    width: 80vw;
+    height: 200vh;
     /* padding: 100px; */
     margin: 150px;
 }
@@ -21,7 +34,8 @@
     background-color: yellow;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
 .btn2 {
@@ -31,7 +45,8 @@
     background-color: lightgreen;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
 .btn3 {
@@ -41,7 +56,8 @@
     background-color: yellow;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
 .btn4 {
@@ -51,7 +67,8 @@
     background-color: lightgreen;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
 .btn5 {
@@ -61,20 +78,154 @@
     background-color: yellow;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
 .btn6 {
     z-index: 1;
     padding: 10px;
     margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn7 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
     background-color: yellow;
     border: 0px;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
 }
 
-hr{
+.btn8 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn9 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn10 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn11 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn12 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn13 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn14 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn15 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn16 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn17 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.btn18 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+hr {
     z-index: 1;
     width: 80vw;
     height: 3.5px;
@@ -84,13 +235,44 @@ hr{
     border: 1px black solid;
 }
 
-.lift{
-    position:absolute;
+.lift {
+    position: absolute;
     width: 50px;
     height: 100px;
     background-color: lightskyblue;
     z-index: 9999;
     margin-left: 500px;
-    margin-top: 500px;
+    margin-top: 1420px;
 }
+
+.lift2 {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: lightskyblue;
+    z-index: 9999;
+    margin-left: 650px;
+    margin-top: 1420px;
+}
+
+.lift3 {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: lightskyblue;
+    z-index: 9999;
+    margin-left: 800px;
+    margin-top: 1420px;
+}
+
+.lift4 {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: lightskyblue;
+    z-index: 9999;
+    margin-left: 950px;
+    margin-top: 1420px;
+}
+
 
