@@ -1,0 +1,96 @@
+* {
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    /* padding: 100px; */
+    margin: 150px;
+}
+
+.btn1 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.btn2 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.btn3 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.btn4 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.btn5 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+.btn6 {
+    z-index: 1;
+    padding: 10px;
+    margin-left: 0;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+hr{
+    z-index: 1;
+    width: 80vw;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    border: 1px black solid;
+}
+
+.lift{
+    position:absolute;
+    width: 50px;
+    height: 100px;
+    background-color: lightskyblue;
+    z-index: 9999;
+    margin-left: 500px;
+    margin-top: 500px;
+}
+
