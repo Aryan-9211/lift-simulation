@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.heading{
+.heading {
     height: 25vh;
     width: 100vw;
     display: flex;
@@ -14,7 +14,8 @@
     align-items: center;
     background-color: aquamarine;
 }
-h1{
+
+h1 {
     font-size: 50px;
     text-decoration: underline;
 }
@@ -23,7 +24,6 @@ h1{
     z-index: 1;
     width: 80vw;
     height: 200vh;
-    /* padding: 100px; */
     margin: 150px;
 }
 
@@ -35,7 +35,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn2 {
@@ -46,7 +45,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn3 {
@@ -57,7 +55,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn4 {
@@ -68,7 +65,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn5 {
@@ -79,7 +75,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn6 {
@@ -90,7 +85,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn7 {
@@ -101,7 +95,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn8 {
@@ -112,7 +105,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn9 {
@@ -123,7 +115,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn10 {
@@ -134,7 +125,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn11 {
@@ -145,7 +135,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn12 {
@@ -156,7 +145,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn13 {
@@ -167,7 +155,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn14 {
@@ -178,7 +165,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn15 {
@@ -189,7 +175,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn16 {
@@ -200,7 +185,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn17 {
@@ -211,7 +195,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 .btn18 {
@@ -222,7 +205,6 @@ h1{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 10px;
-    ;
 }
 
 hr {
@@ -243,6 +225,7 @@ hr {
     z-index: 9999;
     margin-left: 500px;
     margin-top: 1420px;
+    transition: all 2s linear;
 }
 
 .lift2 {
@@ -274,5 +257,3 @@ hr {
     margin-left: 950px;
     margin-top: 1420px;
 }
-
-
