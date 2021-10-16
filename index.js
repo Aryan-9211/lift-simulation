@@ -70,6 +70,9 @@
 //     document.querySelector(".lift").style.marginTop = "1270px";
 // })
 
+
+
+
 const lift = document.querySelector(".lift");
 const btn = document.querySelectorAll("button");
 
