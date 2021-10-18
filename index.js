@@ -114,5 +114,11 @@ function Lift(e) {
 btn.forEach((btn) =>
   btn.addEventListener("click", (e) => {
     Lift(e.target);
+    lift2(e.target);
   })
 );
+
+
+function lift(e){
+  let source = 
+}
