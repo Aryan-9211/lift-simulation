@@ -226,35 +226,5 @@ hr {
     margin-left: 500px;
     margin-top: 1420px;
     transition: all 2s linear;
-    border: 5px solid black;
-}
-
-.lift2 {
-    position: absolute;
-    width: 50px;
-    height: 100px;
-    background-color: lightskyblue;
-    z-index: 9999;
-    margin-left: 650px;
-    margin-top: 1420px;
-}
-
-.lift3 {
-    position: absolute;
-    width: 50px;
-    height: 100px;
-    background-color: lightskyblue;
-    z-index: 9999;
-    margin-left: 800px;
-    margin-top: 1420px;
-}
-
-.lift4 {
-    position: absolute;
-    width: 50px;
-    height: 100px;
-    background-color: lightskyblue;
-    z-index: 9999;
-    margin-left: 950px;
-    margin-top: 1420px;
+    border: 5px solid blue;
 }
