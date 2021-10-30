@@ -73,7 +73,7 @@
 
 
 
-const lift = document.querySelector(".lift");
+const lift = document.querySelector('.lift');
 const btn = document.querySelectorAll("button");
 
 function Lift(e) {
@@ -114,11 +114,6 @@ function Lift(e) {
 btn.forEach((btn) =>
   btn.addEventListener("click", (e) => {
     Lift(e.target);
-    lift2(e.target);
   })
 );
 
-
-function lift(e){
-  let source = 
-}
