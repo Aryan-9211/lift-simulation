@@ -221,10 +221,19 @@ hr {
     position: absolute;
     width: 60px;
     height: 100px;
-    background-color: #666;
+    background-color: rgb(109, 149, 235);
     z-index: 9999;
     margin-left: 500px;
     margin-top: 850px;
     transition: all 2s linear;
-    border: 5px solid black;
+    border: 5px solid rgb(22, 22, 97);
+}
+
+
+
+@media (max-width:800px){
+    .container {
+        margin: 20px;
+        width: 100vw;
+    }
 }
