@@ -1,113 +1,94 @@
-// document.querySelector(".btn1").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "-70px";
-// });
-
-// document.querySelector(".btn2").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "90px";
-// })
-
-// document.querySelector(".btn3").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "90px";
-// })
-
-// document.querySelector(".btn4").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "230px";
-// })
-
-// document.querySelector(".btn5").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "230px";
-// })
-
-// document.querySelector(".btn6").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "380px";
-// })
-
-// document.querySelector(".btn7").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "380px";
-// })
-
-// document.querySelector(".btn8").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "530px";
-// })
-
-// document.querySelector(".btn9").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "530px";
-// })
-
-// document.querySelector(".btn10").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "680px";
-// })
-
-// document.querySelector(".btn11").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "680px";
-// })
-
-// document.querySelector(".btn12").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "820px";
-// });
-
-// document.querySelector(".btn13").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "820px";
-// })
-
-// document.querySelector(".btn14").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "970px";
-// })
-
-// document.querySelector(".btn15").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "970px";
-// })
-
-// document.querySelector(".btn16").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "1120px";
-// })
-
-// document.querySelector(".btn17").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "1120px";
-// })
-
-// document.querySelector(".btn18").addEventListener("click", function(){
-//     document.querySelector(".lift").style.marginTop = "1270px";
-// })
-
-
-
-
-const lift = document.querySelector('.lift');
+const lift = document.querySelector(".lift");
 const btn = document.querySelectorAll("button");
 
 function Lift(e) {
   switch (e.id) {
     case "floor1":
-      lift.style.marginTop = "-70px";
+      setTimeout(() => {
+        lift.style.marginTop = "680px";
+        setTimeout(() => {
+          lift.style.marginTop = "530px";
+          setTimeout(() => {
+            lift.style.marginTop = "380px";
+            setTimeout(() => {
+              lift.style.marginTop = "230px";
+              setTimeout(() => {
+                lift.style.marginTop = "90px";
+                setTimeout(() => {
+                  lift.style.marginTop = "-70px";
+                }, 4000);
+              }, 4000);
+            }, 4000);
+          }, 4000);
+        }, 4000);
+      }, 2000);
       break;
     case "floor2":
-      lift.style.marginTop = "90px";
+      setTimeout(() => {
+        lift.style.marginTop = "680px";
+        setTimeout(() => {
+          lift.style.marginTop = "530px";
+          setTimeout(() => {
+            lift.style.marginTop = "380px";
+            setTimeout(() => {
+              lift.style.marginTop = "230px";
+              setTimeout(() => {
+                lift.style.marginTop = "90px";
+              }, 4000);
+            }, 4000);
+          }, 4000);
+        }, 4000);
+      }, 2000);
       break;
     case "floor3":
-      lift.style.marginTop = "230px";
+      setTimeout(() => {
+        lift.style.marginTop = "680px";
+        setTimeout(() => {
+          lift.style.marginTop = "530px";
+          setTimeout(() => {
+            lift.style.marginTop = "380px";
+            setTimeout(() => {
+              lift.style.marginTop = "230px";
+            }, 4000);
+          }, 4000);
+        }, 4000);
+      }, 2000);
       break;
     case "floor4":
-      lift.style.marginTop = "380px";
+      setTimeout(() => {
+        lift.style.marginTop = "680px";
+        setTimeout(() => {
+          lift.style.marginTop = "530px";
+          setTimeout(() => {
+            lift.style.marginTop = "380px";
+          }, 4000);
+        }, 4000);
+      }, 2000);
       break;
     case "floor5":
-      lift.style.marginTop = "530px";
+      setTimeout(() => {
+        lift.style.marginTop = "680px";
+        setTimeout(() => {
+          lift.style.marginTop = "530px";
+        }, 4000);
+      }, 2000);
       break;
     case "floor6":
-      lift.style.marginTop = "6800px";
+        lift.style.marginTop = "680px";
       break;
-    case "floor7":
-      lift.style.marginTop = "820px";
-      break;
-    case "floor8":
-      lift.style.marginTop = "970px";
-      break;
-    case "floor9":
-      lift.style.marginTop = "1120px";
-      break;
-    case "floor10":
-      lift.style.marginTop = "1270px";
-      break;
+      
+    // case "floor7":
+    //   lift.style.marginTop = "820px";
+    //   break;
+    // case "floor8":
+    //   lift.style.marginTop = "970px";
+    //   break;
+    // case "floor9":
+    //   lift.style.marginTop = "1120px";
+    //   break;
+    // case "floor10":
+    //   lift.style.marginTop = "1270px";
+    //   break;
   }
 }
 
@@ -116,4 +97,3 @@ btn.forEach((btn) =>
     Lift(e.target);
   })
 );
-

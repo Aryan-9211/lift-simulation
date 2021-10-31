@@ -23,7 +23,7 @@ h1 {
 .container {
     z-index: 1;
     width: 80vw;
-    height: 200vh;
+    height: 125vh;
     margin: 150px;
 }
 
@@ -221,10 +221,10 @@ hr {
     position: absolute;
     width: 60px;
     height: 100px;
-    background-color: lightskyblue;
+    background-color: #666;
     z-index: 9999;
     margin-left: 500px;
-    margin-top: 1420px;
+    margin-top: 850px;
     transition: all 2s linear;
-    border: 5px solid blue;
+    border: 5px solid black;
 }
