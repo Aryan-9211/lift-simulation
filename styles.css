@@ -1,230 +1,237 @@
 * {
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .heading {
-    height: 25vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
 }
 
 h1 {
-    font-size: 50px;
-    text-decoration: underline;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
 .container {
-    z-index: 1;
-    width: 80vw;
-    height: 125vh;
-    margin: 150px;
+  z-index: 1;
+  width: 80vw;
+  height: 125vh;
+  margin: 150px;
 }
 
 .btn1 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn2 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn3 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn4 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn5 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn6 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn7 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn8 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn9 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn10 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn11 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn12 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn13 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn14 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn15 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn16 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn17 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: yellow;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .btn18 {
-    z-index: 1;
-    padding: 10px;
-    margin-left: 0;
-    background-color: lightgreen;
-    border: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 hr {
-    z-index: 1;
-    width: 80vw;
-    height: 3.5px;
-    background-color: black;
-    border-radius: 20px;
-    margin-bottom: 100px;
-    border: 1px black solid;
+  z-index: 1;
+  width: 80vw;
+  height: 3.5px;
+  background-color: black;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  border: 1px black solid;
 }
 
 .lift {
-    position: absolute;
-    width: 60px;
-    height: 100px;
-    background-color: #666;
-    z-index: 9999;
-    margin-left: 500px;
-    margin-top: 850px;
-    transition: all 2s linear;
-    border: 5px solid black;
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: rgb(109, 149, 235);
+  z-index: 9999;
+  margin-left: 500px;
+  margin-top: 850px;
+  transition: all 2s linear;
+  border: 5px solid rgb(22, 22, 97);
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 20px;
+    width: 100vw;
+  }
 }
