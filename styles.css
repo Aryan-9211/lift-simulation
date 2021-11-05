@@ -155,7 +155,8 @@ hr {
   z-index: 9999;
   margin-left: 500px;
   margin-top: 850px;
-  transition: all 2s linear;
+  transition: all linear;
+  transition-duration: 2s;
   border: 5px solid rgb(22, 22, 97);
 }
 
