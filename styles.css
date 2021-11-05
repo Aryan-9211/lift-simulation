@@ -137,76 +137,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-.btn12 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: lightgreen;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn13 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: yellow;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn14 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: lightgreen;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn15 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: yellow;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn16 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: lightgreen;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn17 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: yellow;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.btn18 {
-  z-index: 1;
-  padding: 10px;
-  margin-left: 0;
-  background-color: lightgreen;
-  border: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
 hr {
   z-index: 1;
   width: 80vw;
@@ -230,6 +160,27 @@ hr {
 }
 
 @media (max-width: 800px) {
+  h1{
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .container {
+    margin: 20px;
+    width: 100vw;
+  }
+
+  .lift{
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1{
+    padding: 20px;
+    margin: 20px;
+  }
+
   .container {
     margin: 20px;
     width: 100vw;
