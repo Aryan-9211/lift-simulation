@@ -167,8 +167,15 @@ hr {
   margin-left: 500px;
   margin-top: 850px;
   transition: all linear;
-  transition-duration: 2s;
+  /* transition-duration: 2s; */
   border: 5px solid rgb(22, 22, 97);
+}
+
+.code{
+  text-decoration: underline;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
