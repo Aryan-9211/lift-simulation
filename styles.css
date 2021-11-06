@@ -35,6 +35,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn2 {
@@ -45,6 +46,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn3 {
@@ -55,6 +57,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn4 {
@@ -65,6 +68,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn5 {
@@ -75,6 +79,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn6 {
@@ -85,6 +90,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn7 {
@@ -95,6 +101,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn8 {
@@ -105,6 +112,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn9 {
@@ -115,6 +123,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn10 {
@@ -125,6 +134,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn11 {
@@ -135,6 +145,7 @@ h1 {
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 hr {
@@ -155,8 +166,16 @@ hr {
   z-index: 9999;
   margin-left: 500px;
   margin-top: 850px;
-  transition: all 2s linear;
+  transition: all linear;
+  /* transition-duration: 2s; */
   border: 5px solid rgb(22, 22, 97);
+}
+
+.code{
+  text-decoration: underline;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
