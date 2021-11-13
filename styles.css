@@ -160,19 +160,78 @@ hr {
 
 .lift {
   position: absolute;
-  width: 60px;
+  width: 100px;
   height: 100px;
-  background-color: rgb(109, 149, 235);
+  display: flex;
+  flex-direction: column;
   z-index: 9999;
   margin-left: 500px;
   margin-top: 850px;
   transition: all linear;
-  /* transition-duration: 2s; */
   border: 5px solid rgb(22, 22, 97);
 }
 
+.lift1 {
+  height: 100px;
+  width: 45px;
+  background-color: rgb(109, 149, 235);
+}
+
+.lift2 {
+  position: absolute;
+  left: 41px;
+  height: 90px;
+  width: 50px;
+  background-color: rgb(109, 149, 235);
+  animation-direction: alternate-reverse;
+}
+
+@keyframes openingDoor {
+  from {
+    width: 50px;
+  }
+
+  to {
+    width: 0px;
+  }
+}
+
+@keyframes openingDoor1 {
+  from {
+    left: 50px;
+    width: 45px;
+  }
+
+  to {
+    left: 90px;
+    width: 0;
+  }
+}
+
+@keyframes closingDoor {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 50px;
+  }
+}
+
+@keyframes closingDoor1 {
+  from {
+    left: 90px;
+    width: 0px;
+  }
+
+  to {
+    left: 50px;
+    width: 45spx;
+  }
+}
+
 @media (max-width: 800px) {
-  h1{
+  h1 {
     padding: 20px;
     margin: 20px;
   }
@@ -182,13 +241,13 @@ hr {
     width: 100vw;
   }
 
-  .lift{
+  .lift {
     margin-left: 170px;
   }
 }
 
 @media (max-width: 300px) {
-  h1{
+  h1 {
     padding: 20px;
     margin: 20px;
   }
@@ -198,7 +257,7 @@ hr {
     width: 100vw;
   }
 
-  .lift{
+  .lift {
     margin-left: 170px;
   }
 }
