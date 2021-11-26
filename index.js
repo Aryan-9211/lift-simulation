@@ -1,4 +1,5 @@
 const lift = document.querySelector(".lift");
+const lift2 = document.querySelector(".lift_2");
 const btn = document.querySelectorAll("button");
 const leftDoor = document.querySelector('.lift1');
 const rightDoor = document.querySelector('.lift2');

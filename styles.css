@@ -172,23 +172,36 @@ hr {
 }
 
 .lift1 {
-  height: 100px;
+  height: 90px;
   width: 45px;
   background-color: rgb(109, 149, 235);
 }
 
 .lift2 {
   position: absolute;
-  left: 41px;
+  left: 45px;
+  width: 46px;
   height: 90px;
-  width: 50px;
-  background-color: rgb(109, 149, 235);
+  background-color: rgb(39, 80, 167);
   animation-direction: alternate-reverse;
+}
+
+.lift_2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  margin-left: 700px;
+  margin-top: 850px;
+  transition: all linear;
+  border: 5px solid rgb(22, 22, 97);
 }
 
 @keyframes openingDoor {
   from {
-    width: 50px;
+    width: 45px;
   }
 
   to {
@@ -198,8 +211,8 @@ hr {
 
 @keyframes openingDoor1 {
   from {
-    left: 50px;
-    width: 45px;
+    left: 45px;
+    width: 46px;
   }
 
   to {
@@ -214,7 +227,7 @@ hr {
   }
 
   to {
-    width: 50px;
+    width: 45px;
   }
 }
 
@@ -225,8 +238,8 @@ hr {
   }
 
   to {
-    left: 50px;
-    width: 45spx;
+    left: 45px;
+    width: 46px;
   }
 }
 
