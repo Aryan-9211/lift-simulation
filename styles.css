@@ -343,8 +343,13 @@ hr {
   }
 
   .lift {
-    margin-left: 170px;
+    margin-left: 200px;
   }
+
+  .lift_2 {
+    margin-left: 350px;
+  }
+
 }
 
 @media (max-width: 300px) {
@@ -360,5 +365,9 @@ hr {
 
   .lift {
     margin-left: 170px;
+  }
+
+  .lift_2 {
+    margin-left: 220px;
   }
 }
