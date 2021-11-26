@@ -15,11 +15,11 @@ function Lift(e) {
   arr1.push(currheight);
   console.log(arr1);
   let diff = Math.abs(arr1[i] - arr1[i - 1]);
-  let diff2 = Math.abs(currheight - arr2[j - 1]);
-  if(diff > diff2){
-    Lift2(e);
-    return;
-  }
+  // let diff2 = Math.abs(currheight - arr2[j - 1]);
+  // if(diff > diff2){
+  //   Lift2(e);
+  //   return;
+  // }
   let time = diff * 2;
   i++;
   console.log(time);
@@ -29,32 +29,52 @@ function Lift(e) {
   switch (e.id) {
     case "1":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "670px";
+      lift.style.marginTop = "1280px";
       removeAnimation();
       break;
     case "2":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "520px";
+      lift.style.marginTop = "1130px";
       removeAnimation();
       break;
     case "3":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "370px";
+      lift.style.marginTop = "980px";
       removeAnimation();
       break;
     case "4":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "220px";
+      lift.style.marginTop = "830px";
       removeAnimation();
       break;
     case "5":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "70px";
+      lift.style.marginTop = "680px";
       removeAnimation();
       break;
     case "6":
       lift.style.transitionDuration = dur;
-      lift.style.marginTop = "-90px";
+      lift.style.marginTop = "530px";
+      removeAnimation();
+      break;
+    case "7":
+      lift.style.transitionDuration = dur;
+      lift.style.marginTop = "380px";
+      removeAnimation();
+      break;
+    case "8":
+      lift.style.transitionDuration = dur;
+      lift.style.marginTop = "230px";
+      removeAnimation();
+      break;
+    case "9":
+      lift.style.transitionDuration = dur;
+      lift.style.marginTop = "80px";
+      removeAnimation();
+      break;
+    case "10":
+      lift.style.transitionDuration = dur;
+      lift.style.marginTop = "-70px";
       removeAnimation();
       break;
   }
@@ -73,32 +93,52 @@ function Lift2(e) {
   switch (e.id) {
     case "1":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "670px";
+      lift_2.style.marginTop = "1280px";
       removeAnimation();
       break;
     case "2":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "520px";
+      lift_2.style.marginTop = "1130px";
       removeAnimation();
       break;
     case "3":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "370px";
+      lift_2.style.marginTop = "980px";
       removeAnimation();
       break;
     case "4":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "220px";
+      lift_2.style.marginTop = "830px";
       removeAnimation();
       break;
     case "5":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "70px";
+      lift_2.style.marginTop = "680px";
       removeAnimation();
       break;
     case "6":
       lift_2.style.transitionDuration = dur;
-      lift_2.style.marginTop = "-90px";
+      lift_2.style.marginTop = "530px";
+      removeAnimation();
+      break;
+    case "7":
+      lift_2.style.transitionDuration = dur;
+      lift_2.style.marginTop = "380px";
+      removeAnimation();
+      break;
+    case "8":
+      lift_2.style.transitionDuration = dur;
+      lift_2.style.marginTop = "230px";
+      removeAnimation();
+      break;
+    case "9":
+      lift_2.style.transitionDuration = dur;
+      lift_2.style.marginTop = "80px";
+      removeAnimation();
+      break;
+    case "10":
+      lift_2.style.transitionDuration = dur;
+      lift_2.style.marginTop = "-70px";
       removeAnimation();
       break;
   }

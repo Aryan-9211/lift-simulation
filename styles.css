@@ -23,7 +23,7 @@ h1 {
 .container {
   z-index: 1;
   width: 80vw;
-  height: 125vh;
+  height: 200vh;
   margin: 150px;
 }
 
@@ -148,6 +148,94 @@ h1 {
   cursor: pointer;
 }
 
+.btn12 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn13 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn14 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn15 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn16 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn17 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn18 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn19 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 0;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
 hr {
   z-index: 1;
   width: 80vw;
@@ -166,7 +254,7 @@ hr {
   flex-direction: column;
   z-index: 9999;
   margin-left: 500px;
-  margin-top: 850px;
+  margin-top: 1450px;
   transition: all linear;
   border: 5px solid rgb(22, 22, 97);
 }
@@ -186,7 +274,7 @@ hr {
   animation-direction: alternate-reverse;
 }
 
-.lift_2{
+.lift_2 {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -194,7 +282,7 @@ hr {
   flex-direction: column;
   z-index: 9999;
   margin-left: 700px;
-  margin-top: 850px;
+  margin-top: 1450px;
   transition: all linear;
   border: 5px solid rgb(22, 22, 97);
 }
