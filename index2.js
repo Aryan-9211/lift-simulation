@@ -5,23 +5,20 @@ const leftDoor = document.querySelector(".lift1");
 const rightDoor = document.querySelector(".lift2");
 const leftDoor2 = document.querySelector(".lift_2 > .lift1");
 const rightDoor2 = document.querySelector(".lift_2 > .lift2");
+
 var arr1 = [0];
 var arr2 = [0];
 let i = 1;
 let j = 1;
+let count = 0;
 
 function Lift(e) {
   let currheight = parseInt(e.id);
-  let diff = Math.abs(currheight - arr1[i - 1]);
-  let diff2 = Math.abs(currheight - arr2[j - 1]);
-  if (diff2 < diff) {
-    Lift2(e);
-    return;
-  }
   arr1.push(currheight);
   console.log(arr1);
-  let time = diff * 2;
+  let time = Math.abs(arr1[i] - arr1[i - 1]) * 2;
   i++;
+  count++;
   console.log(time);
   dur = time + "s";
   console.log(dur);
@@ -96,6 +93,7 @@ function Lift2(e) {
   console.log(arr2);
   let time2 = Math.abs(arr2[j] - arr2[j - 1]) * 2;
   j++;
+  count++;
   console.log(time2);
   dur2 = time2 + "s";
   console.log(dur2);
@@ -166,8 +164,11 @@ function Lift2(e) {
 
 btn.forEach((btn) =>
   btn.addEventListener("click", (e) => {
-    input.enqueue(e.target.id);
-    Lift(e.target);
+    if (count % 2 == 0) {
+      Lift(e.target);
+    } else {
+      Lift2(e.target);
+    }
   })
 );
 
@@ -190,7 +191,8 @@ function doorAnimation2() {
 }
 
 function removeAnimation() {
-  lift.addEventListener("transitionend", anime);
+  lift.addEventListener("transitionend", animate);
   leftDoor.style.removeProperty("animation");
   rightDoor.style.removeProperty("animation");
 }
+

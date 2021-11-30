@@ -30,210 +30,337 @@ h1 {
 .btn1 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn2 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn3 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn3:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn4 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn4:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn5 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn5:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn6 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn6:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn7 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn7:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn8 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn8:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn9 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn9:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn10 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
 }
 
+.btn10:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
+}
 .btn11 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn11:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn12 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn12:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn13 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn13:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn14 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn14:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn15 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
 }
 
+.btn15:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
+}
 .btn16 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn16:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn17 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: yellow;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn17:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn18 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn18:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 .btn19 {
   z-index: 1;
   padding: 10px;
-  margin-left: 0;
+  margin-left: 10px;
   background-color: lightgreen;
   border: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn19:hover {
+  transform: scale(1.1);
+  transition: .3s ease;
 }
 
 hr {
@@ -349,7 +476,6 @@ hr {
   .lift_2 {
     margin-left: 350px;
   }
-
 }
 
 @media (max-width: 300px) {
