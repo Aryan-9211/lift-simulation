@@ -226,15 +226,21 @@ function Lift2(e) {
   }
 }
 
+let a = 0;
+let b = -1;
 let start = 0;
 btn.forEach((btn) =>
   btn.addEventListener("click", (e) => {
     console.log(input.isEmpty() == true);
-    input.enqueue(e.target.id);
-    console.log(input);
-    start++;
-    if(start == 1){
-      aryan();
+    let a = e.target.id;
+    if(b != a){
+      b = a;
+      input.enqueue(b);
+      console.log(input);
+      start++;
+      if(start == 1){
+        aryan();
+      }
     }
   })
 );
