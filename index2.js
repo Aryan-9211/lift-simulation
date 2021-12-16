@@ -158,70 +158,70 @@ function Lift2(e) {
       lift_2.style.marginTop = "1280px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "2":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "1130px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "3":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "980px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "4":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "830px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "5":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "680px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "6":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "530px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "7":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "380px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "8":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "230px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "9":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "80px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
     case "10":
       lift_2.style.transitionDuration = dur2;
       lift_2.style.marginTop = "-70px";
       input.dequeue();
       doorAnimation2();
-      removeAnimation();
+      removeAnimation2();
       break;
   }
 }
@@ -279,6 +279,12 @@ function doorAnimation2() {
 
 function removeAnimation() {
   lift.addEventListener("transitionend", animate);
+  leftDoor.style.removeProperty("animation");
+  rightDoor.style.removeProperty("animation");
+}
+
+function removeAnimation2() {
+  lift_2.addEventListener("transitionend", animate);
   leftDoor.style.removeProperty("animation");
   rightDoor.style.removeProperty("animation");
 }
