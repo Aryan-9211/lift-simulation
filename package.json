@@ -1,0 +1,26 @@
+{
+  "name": "lift-simulation",
+  "version": "1.0.0",
+  "description": "simulation of working of a lift",
+  "main": "index2.js",
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aryan-9211/lift-simulation.git"
+  },
+  "author": "aryan mangla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aryan-9211/lift-simulation/issues"
+  },
+  "homepage": "https://github.com/Aryan-9211/lift-simulation#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "pre-commit": [
+    "check"
+  ]
+}

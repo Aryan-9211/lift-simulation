@@ -1,0 +1,499 @@
+* {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.heading {
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.container {
+  z-index: 1;
+  width: 80vw;
+  height: 200vh;
+  margin: 150px;
+}
+
+.btn1 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn2 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn3 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn3:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn4 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn4:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn5 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn5:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn6 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn6:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn7 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn7:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn8 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn8:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn9 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn9:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn10 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn10:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.btn11 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn11:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn12 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn12:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn13 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn13:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn14 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn14:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn15 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.btn15:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.btn16 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn16:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn17 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn17:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn18 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn18:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.btn19 {
+  z-index: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2.5rem;
+}
+.btn19:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+hr {
+  z-index: 1;
+  width: 80vw;
+  height: 3.5px;
+  background-color: black;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  border: 1px black solid;
+}
+
+.lift {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  margin-left: 500px;
+  margin-top: 1450px;
+  transition: all linear;
+  border: 5px solid rgb(22, 22, 97);
+}
+
+.lift1 {
+  height: 90px;
+  width: 45px;
+  background-color: rgb(109, 149, 235);
+}
+
+.lift2 {
+  position: absolute;
+  left: 45px;
+  width: 46px;
+  height: 90px;
+  background-color: rgb(39, 80, 167);
+  animation-direction: alternate-reverse;
+}
+
+.lift_2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  margin-left: 700px;
+  margin-top: 1450px;
+  transition: all linear;
+  border: 5px solid rgb(22, 22, 97);
+}
+
+@keyframes openingDoor {
+  from {
+    width: 45px;
+  }
+
+  to {
+    width: 0px;
+  }
+}
+
+@keyframes openingDoor1 {
+  from {
+    left: 45px;
+    width: 46px;
+  }
+
+  to {
+    left: 90px;
+    width: 0;
+  }
+}
+
+@keyframes closingDoor {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 45px;
+  }
+}
+
+@keyframes closingDoor1 {
+  from {
+    left: 90px;
+    width: 0px;
+  }
+
+  to {
+    left: 45px;
+    width: 46px;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .container {
+    margin: 20px;
+    width: 100vw;
+  }
+
+  .lift {
+    margin-left: 200px;
+  }
+
+  .lift_2 {
+    margin-left: 350px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .container {
+    margin: 20px;
+    width: 100vw;
+  }
+
+  .lift {
+    margin-left: 170px;
+  }
+
+  .lift_2 {
+    margin-left: 220px;
+  }
+}
