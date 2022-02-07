@@ -39,11 +39,8 @@ var input = new Queue();
 /////////////////////////////////////////////
 
 const lift = document.querySelector('.lift');
-
 const lift_2 = document.querySelector('.lift_2');
-
 const btn = document.querySelectorAll('button');
-
 const leftDoor = document.querySelector('.lift1');
 const rightDoor = document.querySelector('.lift2');
 const leftDoor2 = document.querySelector('.lift_2 > .lift1');
