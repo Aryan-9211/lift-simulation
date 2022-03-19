@@ -54,6 +54,7 @@ let i = 1;
 let j = 1;
 let count = 0;
 
+/*Function for lift1, runs when the value of count is even  */
 function Lift(e) {
   if (count % 2 != 0) {
     Lift2(e);
@@ -62,7 +63,7 @@ function Lift(e) {
   let currheight = parseInt(e);
   arr1.push(currheight);
   console.log(arr1);
-  let time = Math.abs(arr1[i] - arr1[i - 1]) * 2;
+  let time = Math.abs(arr1[i] - arr1[i - 1]) * 2; // lift should move at 2s per floor
   i++;
   count++;
   console.log(time);
@@ -143,11 +144,12 @@ function Lift(e) {
   }
 }
 
+/* function for lift2 runs when count is odd*/
 function Lift2(e) {
   let currheight = parseInt(e);
   arr2.push(currheight);
   console.log(arr2);
-  let time2 = Math.abs(arr2[j] - arr2[j - 1]) * 2;
+  let time2 = Math.abs(arr2[j] - arr2[j - 1]) * 2; 
   j++;
   count++;
   console.log(time2);
@@ -267,6 +269,7 @@ setInterval(function aryan() {
   }
 }, 7000);
 
+//adds animation to left door of first lift
 function doorAnimation() {
   leftDoor.style.animation = `openingDoor 2.5s 1 ${dur}`;
   rightDoor.style.animation = `openingDoor1 2.5s 1 ${dur}`;
@@ -276,6 +279,7 @@ function doorAnimation() {
   });
 }
 
+//adds animation to right door of first lift
 function doorAnimation2() {
   leftDoor2.style.animation = `openingDoor 2.5s 1 ${dur2}`;
   rightDoor2.style.animation = `openingDoor1 2.5s 1 ${dur2}`;
@@ -285,12 +289,14 @@ function doorAnimation2() {
   });
 }
 
+//adds animation to left door of second lift
 function removeAnimation() {
   lift.addEventListener('transitionend', animate);
   leftDoor.style.removeProperty('animation');
   rightDoor.style.removeProperty('animation');
 }
 
+//adds animation to right door of second lift
 function removeAnimation2() {
   lift_2.addEventListener('transitionend', animate);
   leftDoor.style.removeProperty('animation');
