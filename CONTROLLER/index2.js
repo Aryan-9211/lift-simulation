@@ -34,10 +34,12 @@ class Queue {
   }
 }
 
-var input = new Queue();
-
 /////////////////////////////////////////////
 
+//initialising a queue
+var input = new Queue();
+
+//assigning elements to keywords
 const lift = document.querySelector('.lift');
 const lift_2 = document.querySelector('.lift_2');
 const btn = document.querySelectorAll('button');
@@ -226,6 +228,8 @@ function Lift2(e) {
   }
 }
 
+/*adding event listeners to button and if the it was 
+the first call then calling function aryan*/
 let a = 0;
 let b = -1;
 let start = 0;
@@ -245,14 +249,17 @@ btn.forEach((btn) =>
   }),
 );
 
+/* This function is called only one time at the intial call
+after that command passes to setInterval*/
 function aryan() {
   if (input.isEmpty() == false) {
     Lift(input.front());
     input.dequeue();
   }
 }
-X;
 
+/*This is called after every 7s and checks that if the user has called 
+for a life and if queue is not empty then it calls the lift function */
 setInterval(function aryan() {
   if (input.isEmpty() == false) {
     Lift(input.front());
